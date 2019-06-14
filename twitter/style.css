@@ -1,0 +1,15 @@
+
+#twitter{
+  background:url(tw.png);
+  width: 150px;
+  height: 148px;
+}
+
+#twitter:hover{
+  animation: walk-east 1.0s steps(4) infinite;
+}
+
+@keyframes walk-east{
+  from{background-position: 0px;}
+  to{background-position: -600px;}
+}
